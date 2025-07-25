@@ -1,17 +1,17 @@
-# Pet-проект: Автоматизоване тестування Reqres API
+# Reqres API
 
-Цей проект містить автотести для публічного REST API [reqres.in](https://reqres.in/) на Pytest та Robot Framework.
+This project contains automated tests for the public REST API [reqres.in](https://reqres.in/) using Pytest and Robot Framework.
 
-## Структура
-- `tests/pytest/` — тести на Pytest
-- `tests/robot/` — тести на Robot Framework
+## Structure
+- `tests/pytest/` — Pytest tests
+- `tests/robot/` — Robot Framework tests
 
-## Встановлення
+## Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-## Запуск тестів
+## Running tests
 ### Pytest
 ```bash
 pytest tests/pytest/
@@ -20,4 +20,4 @@ pytest tests/pytest/
 ### Robot Framework
 ```bash
 robot tests/robot/
-``` 
+```
